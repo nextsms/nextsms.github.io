@@ -12,6 +12,7 @@ module.exports = {
   favicon: 'img/favicon.ico',
   organizationName: 'nextsms', // Usually your GitHub org/user name.
   projectName: 'nextsms.github.io', // Usually your repo name.
+  plugins: ['docusaurus-tailwindcss-loader'],
   themeConfig: {
     navbar: {
       title: 'NextSMS',
